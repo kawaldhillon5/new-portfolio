@@ -58,6 +58,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 100px;
   background: radial-gradient(
     circle at bottom,
      rgb(141, 141, 141) 20%, 
