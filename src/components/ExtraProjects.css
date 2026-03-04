@@ -1,0 +1,72 @@
+.track-content.extra-projects{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(
+        circle at bottom,
+        rgb(57, 114, 116) 40%, 
+        rgb(0, 0, 0) 70%
+    );
+}
+
+.extra-projects-list{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.extra-projects-list.mobile{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.extra-projects-list>a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    font-size: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all 200ms;
+    z-index: 999;
+    gap: 10px;
+}
+
+
+.extra-projects-list-item:hover{
+    scale: 1.05;
+}
+
+.extra-projects-list>a:last-child{
+    grid-area: 3/1/4/3;
+    background-color: rgba(128, 128, 128, 0.829);
+    justify-content: center;
+}
+
+.extra-projects-list>a:nth-child(1){
+    background-color: rgba(255, 29, 13, 0.548);
+}
+
+.extra-projects-list>a:nth-child(2){
+    background-color: rgba(55, 197, 27, 0.548);
+}
+
+.extra-projects-list>a:nth-child(3){
+    background-color: rgba(13, 227, 255, 0.548);
+}
+
+.extra-projects-list>a:nth-child(4){
+    background-color: rgba(201, 198, 37, 0.918);
+}

@@ -1,0 +1,45 @@
+.track-content.tictactoe{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  flex-direction: column;
+  background: radial-gradient(
+    circle at bottom,
+     rgb(70, 153, 77) 20%, 
+     rgb(0, 0, 0) 95%
+  );
+}
+
+.track-content-section.tictactoe{
+  width: 80%;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.track-content-section.tictactoe.mobile{
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.phone-video.tictactoe{
+  right: 11px;
+  top: 12px;
+  position: absolute;
+  border-radius: 40px;
+}
+
+.last-sec-item.tictactoe:hover{
+  background-color: rgba(22, 122, 22, 0.63);
+}
+
+.text-top-left.tictactoe>h5,
+.text-bottom-right.tictactoe>h5,
+.text-top-left.tictactoe>h2,
+.text-bottom-right.tictactoe>h2{
+  text-align: center;
+}

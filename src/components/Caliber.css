@@ -1,0 +1,74 @@
+.video-hero{
+  border-radius: 10px;
+}
+
+.text-top-left,.text-bottom-right{
+  color: white;
+  font-size: 40px;
+}
+
+.text-top-left>h5,.text-bottom-right>h5{
+  font-weight: 500;
+  text-align: center;
+  opacity: 60%;
+}
+
+.text-top-left>h5,.text-bottom-right>h5,.text-top-left>h2,.text-bottom-right>h2{
+  margin: 0%;
+}
+
+.text-top-left.mobile,.text-bottom-right.mobile{
+  font-size: 20px;
+}
+
+.phone-svg-div{
+  position: relative;
+  z-index: 1;
+}
+
+.phone-video{
+  right: 11px;
+  top: 12px;
+  position: absolute;
+  border-radius: 40px;
+}
+
+.track-content-section.caliber{
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.track-content-section.caliber.mobile{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.track-content.caliber{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(
+    circle at bottom,
+     rgb(141, 141, 141) 20%, 
+     rgb(0, 0, 0) 95%
+  );
+}
+
+.video-div{
+  position: relative;
+}
+
+.last-sec-item.caliber:hover{
+  background-color: rgb(158, 158, 158);
+}
